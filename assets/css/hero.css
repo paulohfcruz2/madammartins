@@ -1,0 +1,73 @@
+/* ===== HERO SECTION ===== */
+
+#home {
+  margin-top: 80px;
+  min-height: 85vh;
+  background: linear-gradient(rgba(44,44,44,0.5), rgba(44,44,44,0.5)),
+              url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 900px;
+  padding: 2rem;
+}
+
+.hero-label {
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #ddd;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  padding: 1rem 2.5rem;
+  background: var(--gold);
+  color: white;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--dark-gold);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  padding: 1rem 2.5rem;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: var(--text-dark);
+}

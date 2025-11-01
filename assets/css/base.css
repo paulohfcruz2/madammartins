@@ -1,0 +1,42 @@
+/* ===== BASE STYLES ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-pink: #E8B4BC;
+  --dark-pink: #C89BA3;
+  --gold: #D4AF37;
+  --dark-gold: #B8962E;
+  --dark-bg: #2C2C2C;
+  --light-bg: #FAF7F5;
+  --text-dark: #333;
+  --text-light: #666;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
