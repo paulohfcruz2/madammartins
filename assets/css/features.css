@@ -1,0 +1,29 @@
+/* ===== FEATURES ===== */
+
+.why-choose-section {
+  padding: 6rem 2rem;
+  background: var(--light-bg);
+}
+
+.features-list {
+  display: grid;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.feature-item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 2rem;
+}
+
+.feature-number {
+  font-size: 5rem;
+  color: var(--primary-pink);
+  opacity: 0.3;
+}
+
+.feature-content h3 {
+  font-size: 1.5rem;
+  color: var(--text-dark);
+}

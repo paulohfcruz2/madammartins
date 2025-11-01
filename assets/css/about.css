@@ -1,0 +1,36 @@
+/* ===== ABOUT ===== */
+
+.about-section {
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-text h3 {
+  font-size: 2rem;
+  color: var(--text-dark);
+}
+
+.about-text p {
+  color: var(--text-light);
+  line-height: 1.8;
+}
+
+.about-image {
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
