@@ -3,7 +3,7 @@
 #home {
   margin-top: 80px;
   min-height: 60vh; /* Changed from 85vh to 60vh */
-  background: linear-gradient(120deg, #ddb5a6 0%, #e8cec4 30%, #faf7f5 60%, #f5ede6 100%);
+  background: linear-gradient(135deg, #faf7f5 0%, #f5e6e0 60%, rgba(201, 169, 97, 0.08) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
